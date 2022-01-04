@@ -4,20 +4,21 @@ body{
     margin: 0%;
 }
 h1{
-    font-size: 50px;
+    font-size: 40pxpx;
 }
 .akib{
     color: orange;
 }
 section{
    display: flex;
+   margin-bottom: 100px;
 }
   .git{
       width: 50%;
       padding-left: 3%;
   }
   .git img{
-      width: 80%;
+      width: 50%;
   }
   .link{
     text-decoration: none;  
@@ -30,4 +31,9 @@ section{
   .shape{
 background-image: url(top-banner.png);
 background-repeat: no-repeat;
+  }
+  .dream{
+      background-image: url(dream-bg.png);
+      background-repeat: no-repeat;
+      background-position: right;
   }
